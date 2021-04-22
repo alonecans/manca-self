@@ -4642,7 +4642,7 @@ case 'husbu':
 		nuy.updatePresence(from, Presence.composing)
 		const loli = fs.readFileSync('./mp3/bam.mp3')
         nuy.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-        const d = fs.readFileSync('./sticker/joget.webp')
+        const d = fs.readFileSync('./sticker/jget.webp')
         nuy.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "SOUND GABUT", 'jpegThumbnail': fs.readFileSync('./sticker/santuy.webp')}}}})
         }
         if (messagesLink.includes('gatelsa')){
